@@ -4,7 +4,8 @@
 #Step 3: type gcloud auth application-default login
 #Step 4: type gcloud auth application-default set-quota-project YOUR-PROJECT-ID
 #Step 5: type export GOOGLE_CLOUD_PROJECT=YOUR-PROJECT-ID
-#Step 6: python3 BigQuery.py
+#Step 6: type gcloud auth application-default print-access-token
+#Step 7: python3 BigQuery.py
 
 from google.cloud import bigquery
 
