@@ -1,7 +1,10 @@
 #Step 0: Check whether pip is installed by typing pip --version or pip3 --version
 #Step 1: If it not installed type sudo apt install python3-pip -y
 #Step 2: Now, type pip3 install -r requirements.txt which install google-cloud-bigquery module
-#Step 3: python3 BigQuery.py 
+#Step 3: type gcloud auth application-default login
+#Step 4: type gcloud auth application-default set-quota-project YOUR-PROJECT-ID
+#Step 5: type export GOOGLE_CLOUD_PROJECT=YOUR-PROJECT-ID
+#Step 6: python3 BigQuery.py
 
 from google.cloud import bigquery
 
